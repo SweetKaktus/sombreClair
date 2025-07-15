@@ -1,0 +1,79 @@
+body {
+    background-color: black;
+    color: white
+}
+
+
+button {
+    background-color: black;
+    border: none;
+    border-radius: 64px;
+    transition-duration: 350ms;
+}
+
+button:hover {
+    background-color: white;
+    transition-duration: 350ms;
+}
+
+button img {
+    max-height: 32px;
+}
+
+#icoClair {
+    display: unset;
+}
+
+#icoSombre {
+    display: none;
+}
+
+header {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#imgGrandAncien {
+    display: unset
+}
+
+#imgLowPoly {
+    display: none;
+}
+
+main {
+    padding: 2rem;
+    max-width: 900px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #eee;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+img {
+    display: block;
+    margin: 1rem auto;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(255,255,255,0.2);
+}
+
+button img {
+    cursor: pointer;
+}
+
+button:hover img {
+    filter: brightness(1.5);
+}
